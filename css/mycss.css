@@ -1,0 +1,63 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:100;400;700&family=Roboto:100;400&display=swap');
+
+.headprincipal {
+    /* Imagen de fondo */
+    background-image: url('../image/remote-work-header.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+    /* Padding para los datos principales*/
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    /* Propiedades de los datos*/
+    text-align: center;
+    color: white;
+}
+
+.navbar-nav > li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nombre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.resumen {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
+}
+
+.foto {
+    left: 50%;
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    /* Alto y Ancho = Tamaño imagen + 2*Padding + 2*Borde */
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,.25);
+    transform: translateX(-50%);
+}
+
+.foto > img {
+    width: 150px;
+    border-radius: 50%;
+}
