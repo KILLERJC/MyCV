@@ -23,16 +23,13 @@
           <div class="navbar-collapse justify-content-center" id="navbarbotones">
             <ul class="navbar-nav mb-2 mb-lg-0 float-right">
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-user d-block d-sm-none"></i><span class="d-none d-sm-block">Mis Datos</span></a>
+                <a class="nav-link" href="#aboutme"><i class="fa-solid fa-user d-block d-sm-none"></i><span class="d-none d-sm-block">Mis Datos</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-book-open d-block d-sm-none"></i><span class="d-none d-sm-block">Estudios</span></a>
+                <a class="nav-link" href="#estudios"><i class="fa-solid fa-book-open d-block d-sm-none"></i><span class="d-none d-sm-block">Estudios</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-wrench d-block d-sm-none"></i><span class="d-none d-sm-block">Trabajo</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-coffee d-block d-sm-none"></i><span class="d-none d-sm-block">Hobbies</span></a>
+                <a class="nav-link" href="#exptrabajo"><i class="fa-solid fa-wrench d-block d-sm-none"></i><span class="d-none d-sm-block">Trabajo</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fa-solid fa-envelope d-block d-sm-none"></i><span class="d-none d-sm-block">Contacto</span></a>
@@ -42,8 +39,11 @@
       </nav>
 
     <!-- Nombre - Resumen - Foto -->
-    <header class="headprincipal">
-        <div class="foto"><img src="https://randomuser.me/api/portraits/women/4.jpg" alt="My Face"></div>
+    <header id="aboutme" class="headprincipal">
+      <!-- Avatar creado en avataars.io -->
+      <div class="foto"><img src=https://avataaars.io/?avatarStyle=Circle&topType=Eyepatch&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=BlazerShirt&eyeType=Dizzy&eyebrowType=Default&mouthType=Sad&skinColor=Pale' alt="Ups no cargó" height="150"></div>
+      <!-- Muestra de avatar que vamos a conseguir de la API de Random User -->
+      <!--  <div class="foto"><img src="https://randomuser.me/api/portraits/women/4.jpg" alt="My Face"></div> -->
         <div class="nombre">
           Pepito Juarez Celman
         </div>
@@ -53,15 +53,118 @@
     </header>
     
 
-
     <!-- Distintas secciones del CV, Trabajo, Estudios, Hobbies, Contactarme, etc-->
-    <section id="exptrabajo">
-    </section>
+
+    <!-- Usando Google -> Google: Timeline Bootstrap 5  -> https://www.bootdey.com/snippets/view/timeline-events#html  -->
     <section id="estudios">
+      <div class="container text-center">
+        <h2 class ="section-header text-uppercase">Estudios</h2>
+        <h3 class="section-subheader text-muted">Varios estudios</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="content">
+                            <ul class="timeline">
+                                <li class="event" data-date="1990-2000">
+                                    <h3>Estudio 1</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </li>
+                                <li class="event" data-date="2000-2005">
+                                    <h3>Estudio 2</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </li>
+                                <li class="event" data-date="2005-2010">
+                                    <h3>Estudio 3</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </li>
+                                <li class="event" data-date="2010-2015">
+                                    <h3>Estudio 4</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
-    <section id="hobbies">
+
+    <!-- Tomando como referencia algun CV u diseño. Soy malo para diseñar, seamos sinceros https://cdn-images.zety.com/images/zety/landings/examples/uk/cv-example-1@3x.png -->
+    <section id="exptrabajo">
+      <div class="container text-center">
+        <h2 class ="section-header text-uppercase">Historia laboral</h2>
+        <h3 class="section-subheader">Una pequeña reseña de mis empleos</h3>
+      </div>
+      <div class="row justify-content-center eachjob">
+        <div class="col-1">2010-2015</div>
+        <div class="col-3">
+          <p class="jobname">Ingeniero en refrigeracion de materiales de construcción</p>
+          <p class="joblocation">TUCASA, Argentina</p>
+          <ul class="jobdescription">
+            <li> Manejo de hormigon caliente </li>
+            <li> Nunca hacemos caso al nivel en las paredes </li>
+            <li> Experto en hacer montañas de material que no usamos </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center eachjob">
+        <div class="col-1">2015-2020</div>
+        <div class="col-3">
+          <p class="jobname">Ingeniero en fuegos artificiales con cables</p>
+          <p class="joblocation">LACASAdelVECINO, Argentina</p>
+          <ul class="jobdescription">
+            <li> Probamos que las termicas funcionen </li>
+            <li> Agujereamos pared y encontramos caños de agua </li>
+            <li> Dejamos el cable colgando a la vista de todos </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center eachjob">
+        <div class="col-1">2020-presente</div>
+        <div class="col-3">
+          <p class="jobname">Ingeniero en manejo y conduccion de agua</p>
+          <p class="joblocation">Ojala que no sea MI CASA, Argentina</p>
+          <ul class="jobdescription">
+            <li> Hacemos cañeria con poca pendiente o en contrapendiente </li>
+            <li> El agua caliente te sale a la media hora de la ducha </li>
+            <li> Logramos siempre dejar aire en la cañeria </li>
+          </ul>
+        </div>
+      </div>
     </section>
+
     <section id="contacto">
+      <div class="container text-center">
+        <h2 class ="section-header text-uppercase">Contactame</h2>
+        <h3 class="section-subheader">Podes dejarme un mensaje</h3>
+      </div>
+      <form>
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="tunombre" aria-describedby="Solo tu Nombre" placeholder="Tu Nombre *" required>
+            </div>          
+            <div class="mb-3">
+              <input type="email" class="form-control" id="tucorreo" aria-describedby="Escribi tu correo" placeholder="tucorreo@example.com *" required>
+            </div>
+            <div class="mb-3">
+              <input type="number" class="form-control" id="tutelefono" aria-describedby="Escribi tu telefono" placeholder="Tu Telefono *" required>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="mb-3">
+              <textarea class="form-control" id="tumensaje" rows="6" placeholder="Tu Mensaje *" required ></textarea>
+            </div>
+          </div>
+
+          <div class="text-center"><button type="submit" class="btn btn-success btn-lg text-uppercase">Submit</button></div>
+        </div>
+      </form>
     </section>
 
         <i class="fa-solid fa-user"></i>
