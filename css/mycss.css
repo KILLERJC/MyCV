@@ -135,6 +135,19 @@ section {
     font-weight: 100;
     font-size: 0.8rem;
     font-style: italic;
+    list-style: none; /* quitamos el bullet point o marker*/
+}
+
+/* Agregamos una imagen detras de los li, ya que estos podemos modificar su tamaño*/
+
+.jobdescription > li::before {
+    content: '';
+    display: inline-block;
+    background-image: url("../image/arrow-bulletfont.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1em;
+    height: 1em;
 }
 
 /*
@@ -274,4 +287,23 @@ section {
     margin-top: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
+}
+
+/*
+*
+*   SECCION: FOOTER
+*   Unicamente para este.
+* 
+*/
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+footer > div > a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 50%;
 }

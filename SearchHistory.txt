@@ -1,0 +1,64 @@
+Historial de busquedas en Google, desde comienzo de la creacion de la pagina.
+Esto es para dar una dimension de lo buscado y el proceso de creacion con el que me enfrente en la pagina, a pesar de tener alguna idea de HTML, nunca habia podido crear un sitio web responsive, ni tampoco habia logrado de forma exitosa trabajar con las columnas a pesar de ser un concepto tan simple.
+
+- "Bootstrap 5" - Buscando como poner el Bootstrap en la pagina
+- "favicon CV" - Buscando un favicon ya hecho
+- "set favicon" - Como poner el favicon, a pesar que no aparecia bien.
+- "html tag header main" - Buscando explicacion de las secciones de html
+- "fontawesome" - Vi que algunas paginas usaban estos iconos
+- "fontawesome free" - No podia encontrar como (sin registrarme) obtener el link para usarlos, termine usando el link del codigo fuente de una pagina.
+- "bootstrap 5 timeline" - buscando ejemplos de timeline
+- "navbar boostrap move button to the right" - Buscando como mover los links a la derecha, idea que luego cambio al ponerlos al medio. Era cuando tenia el nombre a la izquierda de la barra, segun primeros bocetos.
+- "imagen trabajo" y "imagen work" para encontrar el fondo de la presentacion, de la primera seccion de la pagina.
+- "background-image" problemas con la imagen, no me aparecia la imagen, ni siquiera en el tab network del inspeccionar
+- "background-image local" Otro intento
+- "background-image dont`t work on css file" Hasta que lei en una respuesta que estaba ubicado en la carpeta css, y segun mi directorio primero tenia que salir, es decir "../images/imagen.jpg"
+- "justify-content-end bootstrap 5" Seguia intentando poner al final los links del navbar, lo cual logre, pero no me gusto como quedaba colapsado, y se me ocurrio reemplazarlo con iconos
+- "replace text with button responsive boostrap" Reemplazando los textos del navbar con iconos
+- "hidden-sm" Buscando explicacion en la pagina de bootstrap como funcionan
+- "navbar collapse only items" Tuve un problema que al empezar a modificar el navbar del ejemplo de boostrap, me encontre que en pantallas de 960 o menos pixeles los links me quedan en vertical y no en horizontal como yo queria.
+- "div on top like navbar boostrap 5" En un momento pense... ¿Por que un Navbar? Si mejor uso un div y me soluciono los problemas que tenia antes (el que me muestre vertical)
+- "separate items on navbar bootstrap 5" No habia forma de solucionar el problema de arriba, procedi a dejarlo y continuar con otro problema visual, los links estaban muy juntos. Ahi descubri la propiedad "sticky-top"
+- "div sticky top like a navbar boostrap 5","div sticky top like boostrap 5","div sticky top boostrap 5" otros intentos sin fortuna de reemplazarlo por el div
+- "navbar expand sm" Logre porfin que queden horizontales, al leer el doc de boostrap decia que poner si uno queria que no colapasara para nada.
+- "icon fontawesome email icon" A pesar que tenia un cheatsheet donde me mostraban todos los iconos, no habia forma de encontrar el nombre, no era mail, correspondence, era "envelope"
+- "padding between items navbar bootstrap 5" Seguiamos intentandolo separar.. Pero esta vez lo logre.
+- "google fonts", "google fonts roboto" Ya por fin tenia mi navbar, solo quedaba empezar a desarrollar el nombre y demas, asi que de paso busque las letras.
+- "line-height" queria separar un poco entre lineas, observe esa propiedad en el autocompletar y busque si era lo que queria. Luego descubri que tiene que ser mayor a font-size ...
+- "image person circle png" Buscando algun ejemplo minimo para agregar la foto
+- "img tag html" no me acordaba como poner el tag img
+- "img src local" si... no puedo cargar una imagen local, ni siquiera de prueba, asi que decidi copiar la direccion y usarla
+- "italic css" no me acordaba la propiedad para ponerlo en italica
+- "fake id js","fake person generator js" Tampoco me acordaba la pagina que nos habian dado para crear el perfil random. Con esto reemplace el link que tenia antes por el de esta pagina... de paso aproveche ya que me mostraban la imagen como yo queria mostrarla, por eso fui a inspeccionar y revise el estilo CSS que poseia la imagen, luego desactivando y activando encontre lo que deseaba.
+- "rem or pixel" Diferencias no muy claras, habia que buscar, ya que usaba px,%,rem, entre otros.
+- "vs studio git" Buscando como empezar con git en VS studio
+- "vs user email" como poner el usuario y email
+- "git step by step", hacia rato que no lo usaba, y lo use por hobbie, sabia que era add y commit, pero hasta ahi
+- "letter spacing css" ¿Se puede variar el espacio entre letras? Siiii.
+- "timeline bootstrap 5" Consegui una pagina con ejemplos de linea de tiempo.
+- "text muted" Viendo que otros efectos podia ponerle ademas del busacdo.
+- "text uppercase bootstrap" no me funciona "uppercase" solo, y era que era text-uppercase
+- "list bootstrap" buscando si habia algun ejemplo mas lindo que una lista con los punto al frente.
+- "CV example" Tomando como ejemplo algun modelo de estudios o trabajo teniendolo como boceto, procedi a crear la pagina con el mismo formato.
+- "create 2 columns bootstrap" Buscando crear 2 columnas para hacer el diseño del CV
+- "center row boostrap" Problemas... me quedaba todo a la izquierda... el problema es que lo habia definido como col-1 y col, entonces me tomaba las 11 el segundo. Todo se resolvio cuando los puse col-4 a ambos
+- "css border botton only" intento fallido de querer hacer un pequeño separador entre trabajos
+- "sticky on top anchor links" Al presionar los links para probar, me encontre que el navbar me tapaba el comienzo de la seccion. Con esta busqueda lo solucione.
+- "background for contact" Buscando imagen para la seccion de contacto.
+- "ccs by id" no me acordaba si con # podia delimitarlo al id
+- "bootstrap form" Empezando a crear el formulario
+- "data-sb-validation" atributo que vi en un ejemplo de la pagina bootstrap, observando que era.
+- "row to collapse on small screens bootstrap 5" Deje de probar en small screens luego del timeline de estudios, no habia probado ni el contacto ni los trabajos, me di cuenta que se veian todos solapados. Entonces busque ayuda.. Sin frutos, luego termine resolviendolo al forzar que para pantallas pequeñas tomen las 12 columnas.
+- "git push pull", "git push error", entre otros.  No me acordaba para que lado iban, ya que tuve problemas porque me pedia hacer un pull ANTES.. a pesar que todo lo habia realizado desde una sola PC.
+- "git rebase vs merge" Diferencias? Por ser unico usuario, un rebase.
+- "btn btn dark" Buscando poner los botones en oscuro.. a pesar que lo habia usado en el navbar. Toda la info en el Docs de Bootstrap
+- "use fa-brands fontawesome" No me aparecian los iconos de las marcas para el footer, el problema era mio. estaba ubicando las clases en un lugar que no correspondia.
+- "background dark Boostrap 5" Recordando si los colores de los botones tambien se pueden aplicar al background de un div.
+- "container fluid horizontal alignment", "align horizontal bootstrap" Buscando como centrar el footer
+- "change size icon fontawesome" probe con cambiarle tamaño al texto pero no funciono, asi que esto me llevo a la pagina de fontawesome, donde me indico como realizarlo.
+- "center on small screens", "text-center on small screens" me di cuenta que los trabajos quedaban feos visualmente alineados a la izquierda en pantallas pequeñas, asi que se modifico para que se centraran en ese momento
+- "points on ul stay far away from lsft side" Cuando ocupaba toda la pantalla, los puntos de la lista quedaban pegados a la izquieda, lo cual daba un mal aspecto.
+- "change ul points", "change ul marker", no me gustaban los puntos, decidi buscar por alguna otro icono, ahi indicaba que se podia hacer con list-style-image, pero no puede achicarse, se podria haber usado ::marker
+- "bullet point" buscando una imagen para reemplazar el marcador. Lo cual se logró.
+
+---- FIN MODIFICACION CSS/HTML ----
