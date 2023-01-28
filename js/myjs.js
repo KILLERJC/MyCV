@@ -5,9 +5,9 @@
 *
 */
 
-document.addEventListener('DOMContentLoaded', cargarDatos , false);
+document.addEventListener('DOMContentLoaded', todoCargado , false);
 
-function cargarDatos(){
+function todoCargado(){
     getJSON('https://randomuser.me/api/',function(err,data){
         if(err !== null) {
             /* Algo salio mal, dejamos los valores por defecto*/
@@ -15,11 +15,15 @@ function cargarDatos(){
         } else {
             let datos;
             datos = data.results[0];
-            console.log(datos);
             document.getElementById('imagenpersona').setAttribute('src',datos.picture.large);
             document.getElementById('nombrepersona').innerHTML = datos.name.title + " " + datos.name.first + " " + datos.name.last;
             document.getElementById('resumenpersona').innerHTML = "Tengo " + datos.dob.age + " años y vivo en " + datos.location.city + ", " + datos.location.state + ", " + datos.location.country + ". " + document.getElementById('resumenpersona').innerHTML;
         }
+    });
+
+    document.getElementById('formcontacto').addEventListener('submit', function(event) {
+      event.preventDefault();
+      alert("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
     });
 }
 
@@ -37,3 +41,4 @@ let getJSON = function(url, callback) {
     };
     xhr.send();
 };
+

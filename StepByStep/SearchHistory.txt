@@ -1,0 +1,77 @@
+Historial de búsquedas en Google, desde comienzo de la creación de la pagina.
+Esto es para dar una dimensión de lo buscado y el proceso de creación con el que me enfrente en la pagina. 
+A pesar de tener alguna idea de HTML, nunca había podido crear un sitio web responsive, ni tampoco había logrado de forma exitosa trabajar con las columnas a pesar de ser un concepto tan simple.
+
+- "Bootstrap 5" - Buscando como poner el Bootstrap en la pagina
+- "favicon CV" - Buscando un favicon ya hecho
+- "set favicon" - Como poner el favicon, a pesar que no aparecía bien.
+- "html tag header main" - Buscando explicación de las secciones de html
+- "fontawesome" - Vi que algunas paginas usaban estos iconos
+- "fontawesome free" - No podía encontrar como (sin registrarme) obtener el link para usarlos, termine usando el link del código fuente de una pagina.
+- "bootstrap 5 timeline" - buscando ejemplos de timeline
+- "navbar boostrap move button to the right" - Buscando como mover los links a la derecha, idea que luego cambio al ponerlos al medio. Era cuando tenia el nombre a la izquierda de la barra, según primeros bocetos.
+- "imagen trabajo" y "imagen work" para encontrar el fondo de la presentación, de la primera seccion de la pagina.
+- "background-image" problemas con la imagen, no me aparecía la imagen, ni siquiera en el tab network del inspeccionar
+- "background-image local" Otro intento
+- "background-image dont`t work on css file" Hasta que lei en una respuesta que estaba ubicado en la carpeta css, y según mi directorio primero tenia que salir, es decir "../images/imagen.jpg"
+- "justify-content-end bootstrap 5" Seguía intentando poner al final los links del navbar, lo cual logre, pero no me gusto como quedaba colapsado, y se me ocurrió reemplazarlo con iconos
+- "replace text with button responsive boostrap" Reemplazando los textos del navbar con iconos
+- "hidden-sm" Buscando explicacion en la pagina de bootstrap como funcionan
+- "navbar collapse only items" Tuve un problema que al empezar a modificar el navbar del ejemplo de boostrap, me encontre que en pantallas de 960 o menos pixeles los links me quedan en vertical y no en horizontal como yo quería.
+- "div on top like navbar boostrap 5" En un momento pensé... ¿Por que un Navbar? Si mejor uso un div y me soluciono los problemas que tenia antes (el que me muestre vertical)
+- "separate items on navbar bootstrap 5" No había forma de solucionar el problema de arriba, procedí a dejarlo y continuar con otro problema visual, los links estaban muy juntos. Ahí descubrí la propiedad "sticky-top"
+- "div sticky top like a navbar boostrap 5","div sticky top like boostrap 5","div sticky top boostrap 5" otros intentos sin fortuna de reemplazarlo por el div
+- "navbar expand sm" Logre por fin que queden horizontales, al leer el doc de boostrap decía que poner si uno quería que no colapsara para nada.
+- "icon fontawesome email icon" A pesar que tenia un cheatsheet donde me mostraban todos los iconos, no había forma de encontrar el nombre, no era mail, correspondence, era "envelope"
+- "padding between items navbar bootstrap 5" Seguíamos intentándolo separar.. Pero esta vez lo logre.
+- "google fonts", "google fonts roboto" Ya por fin tenia mi navbar, solo quedaba empezar a desarrollar el nombre y demás, así que de paso busque las letras.
+- "line-height" quería separar un poco entre lineas, observe esa propiedad en el auto completar y busque si era lo que quería. Luego descubrí que tiene que ser mayor a font-size ...
+- "image person circle png" Buscando algún ejemplo mínimo para agregar la foto
+- "img tag html" no me acordaba como poner el tag img
+- "img src local" si... no puedo cargar una imagen local, ni siquiera de prueba, así que decidí copiar la dirección y usarla
+- "italic css" no me acordaba la propiedad para ponerlo en itálica
+- "fake id js","fake person generator js" Tampoco me acordaba la pagina que nos habían dado para crear el perfil random. Con esto reemplace el link que tenia antes por el de esta pagina... de paso aproveche ya que me mostraban la imagen como yo quería mostrarla, por eso fui a inspeccionar y revise el estilo CSS que poseía la imagen, luego desactivando y activando encontré lo que deseaba.
+- "rem or pixel" Diferencias no muy claras, había que buscar, ya que usaba px,%,rem, entre otros.
+- "vs studio git" Buscando como empezar con git en VS studio
+- "vs user email" como poner el usuario y email
+- "git step by step", hacia rato que no lo usaba, y lo use por hobbie, sabia que era add y commit, pero hasta ahi
+- "letter spacing css" ¿Se puede variar el espacio entre letras? Siiii.
+- "timeline bootstrap 5" Conseguí una pagina con ejemplos de linea de tiempo.
+- "text muted" Viendo que otros efectos podía ponerle ademas del buscado.
+- "text uppercase bootstrap" no me funciona "uppercase" solo, y era que era text-uppercase
+- "list bootstrap" buscando si había algún ejemplo mas lindo que una lista con los punto al frente.
+- "CV example" Tomando como ejemplo algún modelo de estudios o trabajo teniéndolo como boceto, procedí a crear la pagina con el mismo formato.
+- "create 2 columns bootstrap" Buscando crear 2 columnas para hacer el diseño del CV
+- "center row boostrap" Problemas... me quedaba todo a la izquierda... el problema es que lo había definido como col-1 y col, entonces me tomaba las 11 el segundo. Todo se resolvió cuando los puse col-4 a ambos
+- "css border botton only" intento fallido de querer hacer un pequeño separador entre trabajos
+- "sticky on top anchor links" Al presionar los links para probar, me encontré que el navbar me tapaba el comienzo de la sección. Con esta búsqueda lo solucione.
+- "background for contact" Buscando imagen para la sección de contacto.
+- "ccs by id" no me acordaba si con # podía delimitarlo al id
+- "bootstrap form" Empezando a crear el formulario
+- "data-sb-validation" atributo que vi en un ejemplo de la pagina bootstrap, observando que era.
+- "row to collapse on small screens bootstrap 5" Deje de probar en small screens luego del timeline de estudios, no había probado ni el contacto ni los trabajos, me di cuenta que se veían todos solapados. Entonces busque ayuda.. Sin frutos, luego termine resolviéndolo al forzar que para pantallas pequeñas tomen las 12 columnas.
+- "git push pull", "git push error", entre otros.  No me acordaba para que lado iban, ya que tuve problemas porque me pedía hacer un pull ANTES.. a pesar que todo lo había realizado desde una sola PC.
+- "git rebase vs merge" Diferencias? Por ser único usuario, un rebase.
+- "btn btn dark" Buscando poner los botones en oscuro.. a pesar que lo había usado en el navbar. Toda la info en el Docs de Bootstrap
+- "use fa-brands fontawesome" No me aparecían los iconos de las marcas para el footer, el problema era mio. estaba ubicando las clases en un lugar que no correspondía.
+- "background dark Boostrap 5" Recordando si los colores de los botones también se pueden aplicar al background de un div.
+- "container fluid horizontal alignment", "align horizontal bootstrap" Buscando como centrar el footer
+- "change size icon fontawesome" probé con cambiarle tamaño al texto pero no funciono, asi que esto me llevo a la pagina de fontawesome, donde me indico como realizarlo.
+- "center on small screens", "text-center on small screens" me di cuenta que los trabajos quedaban feos visualmente alineados a la izquierda en pantallas pequeñas, así que se modifico para que se centraran en ese momento
+- "points on ul stay far away from lsft side" Cuando ocupaba toda la pantalla, los puntos de la lista quedaban pegados a la izquierda, lo cual daba un mal aspecto.
+- "change ul points", "change ul marker", no me gustaban los puntos, decidí buscar por alguna otro icono, ahí indicaba que se podía hacer con list-style-image, pero no puede achicarse, se podría haber usado ::marker
+- "bullet point" buscando una imagen para reemplazar el marcador. Lo cual se logró.
+
+---- FIN MODIFICACION CSS/HTML ----
+
+---- INICIO AGREGADO FUNCIONALIDADES JS ----
+
+- "add js to HTML" no me acordaba el <script> para un archivo js
+- "js on open page", "js execute at start" No quería usar JQuery, como se recomendó, randomuser provee el AJAX para JQuery. Asi que busque vanilla js.
+- "js get json from url","take data from xhr response" a pesar de haber usado un código, y haberlo modificado, no estaba obteniendo el JSON final, con la consola obtuve que tenia que entrar a results y luego al indice 0 del array.
+- "change DOM with js" No me acordaba el getElementById.
+- "change atributte js" No me acordaba como cambiar el atributo, ya que el ejemplo de la búsqueda anterior era el innerHTML.
+- "getElementById return null" entre otras 8 búsquedas... Problemas... No me actualizaba los datos, al principio pensé que era porque el DOM no estaba cargado completo, pero lo estaba ejecutando en el DOMContentLoaded.
+  Seguí buscando y encontré sobre el Shadow DOM. Hasta que se me ocurrió probarlo sobre la consola del inspeccionar. Obviamente ahí debería estar cargado, seguía dando null. El problema era la falta de comillas en el id...
+- "button form remove reload", "submit button dont reload page", "onclick event listener", buscando como evitar que me recargue la pagina al presionar el submit, termine encontrando el preventDefault(); Para AJAX luego ¿?
+- "Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')" ... Probando en consola si podía seleccionar por ID.. Me di cuenta que estaba ejecutando el código antes que cargue el DOM.

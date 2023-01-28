@@ -1,0 +1,23 @@
+Bueno este es un pequeño apartado donde cuento un poco el paso a paso de la pagina.
+Decidí hacerlo responsive, me pareció que era lo básico hoy en día.
+
+Comencé con mi primera idea, el cual diseñe el primer boceto, que encontraran en esta misma carpeta como 1erBoceto.jpeg
+Este boceto no paso a mayores porque no me convencía usar los datos personales a la vista en una pagina web (dirección, teléfono, entre otros)
+Otro punto es el navbar que se encuentra al medio de la pagina, el bajar a las distintas secciones me obligaba a poner un botón para subir..
+En pantallas mas pequeñas lo resolvía como lo planteaba el boceto, pero el navbar era móvil en el celular pero fijo en PC.
+
+Pase a otro estilo "clásico" de CV, otro diseño, mi 2doBoceto.jpeg , donde tenemos los datos sobre una barra a la izquierda y los links. 
+El cual al hacer click en los links cambiaba el contenido dentro de la parte derecha.. Posiblemente algún efecto como que aparecía de trasparente a opaco con un desplazamiento horizontal pequeño.
+Como era fija la pagina... El scroll down del mouse me permitiría cambiar de secciones sin hacer click.
+En el caso del celular o pantallas pequeñas. La barra debía moverse al nivel superior y quedarse ahí. No sabia como poner la foto ni los datos que tenia la pagina mas grande.
+Siguiendo el mismo concepto de la pagina inicial. Eran animaciones entre cambios de secciones y al desplazar horizontalmente en la pantalla cambiaba de secciones.
+Como se dijo en el video responsive = vertical. Por lo cual descarte esta idea.
+
+Pasamos al 3erBoceto.jpeg, Esta ya toma el diseño de la pagina realizada, pero el navbar es el por defecto que trae bootstrap.
+Se empezó a realizar, pero la barra colapsada no me gustaba y el que se encuentre el nombre siempre en el navbar tampoco me llamo la atención.
+
+Finalmente al 4to boceto, Links unicamente. Y en vez de dar los datos, poner un formulario de contacto. Asi como el footer con alguna otra forma de contactarse.
+Se empezó a trabajar con este boceto y se finalizo, lamentablemente no me di cuenta de sacar imágenes de paso a paso.
+Pero poseo una imagen "Navbar-Intro-Listo.png" donde ya tengo terminado el Nabvar y la presentación de la persona.
+Luego una captura de la vista en modo "celular" donde la alineación hizo que no quedara llamativo a la vista.
+Y finalmente en el archivo SearchHistory.txt podrán encontrar todas las busquedas en google realizadas y las razones por la cual se buscó.
